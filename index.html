@@ -11,9 +11,17 @@
 
 <script>
    function pageNext() {
-    var str = document.getElementById("pages").page + 1;
-    if (str == 1) window.location.href = "https://programmera.ru";
-	else window.location.href = "https://ya.ru"
+    var str = document.getElementById("6pages").currentPage();
+	console.log(str);
+    str.then((res) => {
+		console.log(res);
+		if (res == 2) {
+			window.location.href = "actual.html";
+		}
+		else if (res == 3) {
+			window.location.href = "attack.html";
+		}
+	});
    }
  </script>
 
@@ -22,19 +30,22 @@
 
 <body>
 
-<ul class="snip1143">
-<link rel="stylesheet" href="css/menu.css">
-  <li class="current"><a href="#" data-hover="Краткая история">Краткая история</a></li>
-  <li><a href="#" data-hover="About Us">Актуальные проблемы безопасности</a></li>
-  <li><a href="#" data-hover="Blog">Blog</a></li>
-  <li><a href="#" data-hover="Services">Services</a></li>
-  <li><a href="#" data-hover="Products">Products</a></li>
-  <li><a href="#" data-hover="Contact">Contact</a></li>
-</ul>
+	<ul class="snip1143">
+	<link rel="stylesheet" href="css/menu.css">
+	  <li class="current"><a href="index.html" data-hover="Краткая история">Краткая история</a></li>
+	  <li><a href="actual.html" data-hover="Актуальные проблемы безопасности">Актуальные проблемы безопасности</a></li>
+	  <li><a href="#" data-hover="Blog">Blog</a></li>
+	  <li><a href="#" data-hover="Services">Services</a></li>
+	  <li><a href="#" data-hover="Products">Products</a></li>
+	  <li><a href="#" data-hover="Contact">Contact</a></li>
+	</ul>
+
 
 <div class="layout">
 <link rel="stylesheet" href="css/main.css">
-	<div class="sidebar"></div>
+	<div class="sidebar">
+	
+	</div>
 	
 	<blaze-timeline loading>
 	  
@@ -134,20 +145,31 @@
   <button class="c-button u-large c-button--info">Go back to top</button>
 </blaze-back-to-top>
 
-<blaze-pagination pages="6" page="1" id='pages' onclick="pageNext()"></blaze-pagination>
+<blaze-pagination pages="6" page="1" id='6pages' onclick="pageNext()"></blaze-pagination>
 
 
 <div class="wrapper">
 <link rel="stylesheet" href="css/footer.css">
+	
 	<div class="footer">
 	  <div id="knopka"></div>
+		
 		<div id="block">
+		<button type="button" class="c-button c-button--block u-large" onclick="window.location.href = 'https://edu.kirpichev.info/';">Самый лучший сайт</button>
+		<button type="button" class="c-button c-button--block u-large">Хороший сайт</button>
+		<button type="button" class="c-button c-button--block u-large">coming soon...</button>
 			<div id="text">
+			<button id="bb" type="button" class="c-button c-button--ghost u-xlarge">Button</button>
 				<div class="footer1">
-					   <h1>xxx</h1>
+					
+					   <h1>
+					   
+					   </h1>
+					   
 				</div>
 			</div>
 		</div>
+		
 	</div>
 </div>
 
