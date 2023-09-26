@@ -3,9 +3,9 @@
 
 
 <head>
-<link rel="stylesheet" href="https://unpkg.com/@blaze/css@12.2.0/dist/blaze/blaze.css">
-<script type="module" src="https://unpkg.com/@blaze/atoms@13.1.0/dist/blaze-atoms/blaze-atoms.esm.js"></script>
-<script nomodule="" src="https://unpkg.com/@blaze/atoms@13.1.0/dist/blaze-atoms/blaze-atoms.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/@blaze/css@13.2.0/dist/blaze/blaze.css">
+<script type="module" src="https://unpkg.com/@blaze/atoms@14.1.0/dist/blaze-atoms/blaze-atoms.esm.js"></script>
+<script nomodule="" src="https://unpkg.com/@blaze/atoms@14.1.0/dist/blaze-atoms/blaze-atoms.js"></script>
 <meta charset="utf-8" />
 <title>Безопасность Web-ресурсов</title>
 
@@ -16,7 +16,7 @@
   <li><a href="attack.html" data-hover="Атака">Атака</a></li>
   <li><a href="course.html" data-hover="Курсы">Курсы</a></li>
   <li><a href="map.html" data-hover="Источники">Источники</a></li>
-  <li class="current"><a href="#" data-hover="Карта сайта">Карта сайта</a></li>
+  <li class="current"><a href="#" data-hover="Этот сайт без фреймворка">Этот сайт без фреймворка</a></li>
 </ul>
 
 <script>
@@ -44,6 +44,162 @@
 <link rel="stylesheet" href="css/main.css">
 	<div class="sidebar"></div>
 	
+	<blaze-timeline loading>
+	  
+	  <blaze-timeline-item type="brand">
+		<div class="c-timeline-item__body">
+				<div class="c-card">
+				  <img alt="placeholder" src="./fsite.png" width="98%" height="99%">
+				  <header class="c-card__header c-timeline-item--left">
+					<h2 class="c-heading u-centered u-large">
+					  Первый в мире сайт info.cern.ch
+					  <div class="c-heading__sub u-large">Появился в 1990 году.</div>
+					</h2>
+				  </header>
+				  <div class="c-card__body">
+					<p class="c-paragraph  u-large">Его создатель, Тим Бернерс-Ли, опубликовал на нём описание новой технологии World Wide Web, основанной на протоколе передачи данных HTTP, системе адресации URI и языке гипертекстовой разметки HTML.
+					Также на сайте были описаны принципы установки и работы серверов и браузеров. Сайт стал и первым в мире интернет-каталогом, так как позже Тим Бернерс-Ли разместил на нём список ссылок на другие сайты.</p>
+				  </div>
+				  <footer class="c-card__footer c-card__footer--block">
+					<div class="c-input-group">
+					  <button onclick="window.location.href = 'http://info.cern.ch/hypertext/WWW/TheProject.html';" class="c-button c-button--block c-button--active c-button--info u-large">Ссылка на сайт</button>
+					</div>
+				  </footer>
+				</div>
+			</div>
+	  </blaze-timeline-item>
+	
+	  <blaze-timeline-item type="warning">
+	  <div class="c-card">
+			  <img alt="placeholder" src="./b.jfif" width="98%" height="99%">
+			  <header class="c-card__header c-timeline-item--left">
+				<h2 class="c-heading u-centered">
+				  Первый браузер
+				  <div class="c-heading__sub u-large">Снимок экрана, сделанный в 1993-м, показывающий браузер WorldWideWeb Тим Бернерса-Ли</div>
+				</h2>
+			  </header>
+			  <div class="c-card__body">
+				<p class="c-paragraph u-large">Создателем первого браузера был разработчик гипертекстовой разметки, «отец» технологии World Wide Web Тим Бернерс-Ли (Tim Berners-Lee). Браузер получил название WorldWideWeb. 
+				Позднее, чтобы не путать «всемирную паутину» с названием программы, Бернерс-Ли переименовал браузер в Nexus.</p>
+				<p class="c-paragraph u-large">Согласно легенде, Бернерс-Ли писал WorldWideWeb в течение 2-х месяцев и закончил работу в первый день Рождества 1990 года (25 декабря). 
+				Тогда он работал младшим научным сотрудником в Европейской лаборатории физики элементарных частиц в Женеве (CERN).
+				В это время CERN был одним из крупнейших узлов Сети, и у Бернерса-Ли были все возможности интегрировать интернет с технологией гипертекстовой разметки, работать над которой он начал еще в начале 80-х.</p>
+				<p class="c-paragraph u-large">Тим Бернерс-Ли использовал для создания своего браузера компьютер NeXT под управлением операционной системы NeXTStep. 
+				«Я написал программу на компьютере NeXT. Преимуществом было наличие хороших инструментов, — пишет Бернерс-Ли в своем блоге. — Фактически, я за пару месяцев сделал то, что заняло бы более года на других платформах, потому что на NeXT многое уже было сделано. 
+				Здесь был билдер (сборщик) приложений, чтобы все меню можно было сделать быстро, все софтверные элементы для работы в режиме WYSIWYG (what you see is what you get, с возможностью видеть результат в процессе проектирования). Мне осталось только добавить гипертекст».</p>
+				<p class="c-paragraph u-large">WorldWideWeb позволял просматривать веб-страницы, а также редактировать и обновлять их на сайтах. Это был текстовый браузер, способный отображать исключительно буквы и цифры. На изображении — скриншот более поздней версии браузера (1993 года). 
+				В отличие от него, первый WorldWideWeb был черно-белым, а иконки CERN и другие открывались в отдельных окнах.</p>
+				<p class="c-paragraph u-large">Первый браузер поддерживал протоколы FTP и TCP, систему DNS и позволял переходить на другие интернет-страницы по гиперссылкам. WorldWideWeb написан на Objective-C. 
+				И сам продукт, и его код находились в свободном доступе.</p>
+			  </div>
+			  
+			</div>
+	  </blaze-timeline-item>
+	  <blaze-timeline-item type="success">
+	  <div class="c-timeline-item__body">
+			<div class="c-card">
+				<img alt="placeholder" src="./ddos.jpg" width="98%" height="99%">
+				<header class="c-card__header c-timeline-item--left">
+					<h2 class="c-heading u-centered u-large"> Первая DDoS-атака
+						<div class="c-heading__sub u-large">Первая DDoS-атака произошла 20 лет назад.</div>
+					</h2>
+				</header>
+				<div class="c-card__body">
+					<p class="c-paragraph u-large">22 июля 1999 года – важная дата в истории вычислений.</p>
+					<p class="c-paragraph u-large">В этот день компьютер Миннесотского университета внезапно подвергся атаке со стороны сети из 114 компьютеров, зараженных вредоносным скриптом Trin00.</p>
+					<p class="c-paragraph u-large">Спустя 20 лет исследователи из Виргинского университета Эрик Остервил и Джордж Мэйсон изучили природу DDoS-атак и их эволюцию и попытались понять, 
+					можно ли решить фундаментальные проблемы архитектуры сети, чтобы избежать их. </p>
+				</div>
+			</div>
+		</div>
+	  </blaze-timeline-item>
+	  
+	  <blaze-timeline-item type="brand">
+		<div class="c-timeline-item__body">
+			<div class="c-card">
+				<img alt="placeholder" src="./sec.png" width="98%" height="99%">
+				<header class="c-card__header c-timeline-item--left">
+					<h2 class="c-heading u-centered u-large"> Противодействие DDoS
+						<div class="c-heading__sub u-large">Лишь в 1996 году Координационный центр CERT (computer emergency response team) университета Карнеги-Меллона опубликовал рекомендации по противодействию SYN flood, таким образом официально признав наличие проблемы.</div>
+					</h2>
+				</header>
+				<div class="c-card__body">
+					<p class="c-paragraph u-large">Поводом стала первое масштабное нападение на крупнейшего интернет-провайдера Нью-Йорка — Panix Networks. 
+					Это была коммерческая атака, организованная спамерами. Они мстили Panix за то, что компания не позволила им рассылать мусорные рекламные сообщения пользователям.</p>
+					<p class="c-paragraph u-large">В том же 1996 году впервые был опубликован набор публичных инструментов с исходным кодом для осуществления DDoS.
+					Спустя два года этот инструментарий был опробован на Мичиганском университете — состоялась вторая крупная DDoS-атака.</p>
+					<p class="c-paragraph u-large">В 2000 году 15-летний подросток, скрывавшийся под ником MafiaBoy, один за другим опрокинул самые посещаемые сайты мира того времени: eBay, CNN, Dell, Yahoo, Amazon и т.д. 
+					Интернет-сообщество было в панике. Казалось, наступает интернет-апокалипсис.</p>
+				</div>
+			</div>
+		</div>
+	  </blaze-timeline-item>
+	  <blaze-timeline-item loading>Evolution</blaze-timeline-item>
+	</blaze-timeline>
+	
+	<div class="contentA">
+		<h1 class="c-heading u-super ">Виды атак на сайт</h1>
+		
+		<ul class="c-list c-list--unstyled">
+		  <li class="c-list__item">
+			<h1 class="c-heading u-large"> Атаки MitM </h1>
+		  </li>
+			<ul class="c-list ">
+			  <li class="c-list__item">Атака типа «человек посередине» (MitM) также известна как атака с перехватом. Она происходит, когда злоумышленник пытается перехватить связь между двумя сторонами (веб-сервером и клиентским браузером), чтобы следить за жертвой, украсть личную информацию или учетные данные, передаваемые по сети. Для выполнения атаки хакер ищет незащищенные сетевые соединения в общедоступных сетях Wi-Fi. Для предотвращения атак MitM при доступе к сети из незащищенной общедоступной точки доступа Wi-Fi используют виртуальную частную сеть (VPN), обеспечивающую безопасное соединение с шифрованием данных.</li>
+			  <li class="c-list__item c-list__item--unstyled"> * </li>
+			  <li class="c-list__item c-list__item--unstyled">Примечание. В наши дни MitM не широко распространены, так как в большинстве систем электронной почты, чатов используется сквозное шифрование, которое предотвращает вмешательство третьих лиц в данные, передаваемые по сети, независимо от того, является ли сеть безопасной или нет.</strong></li>
+			</ul>
+			
+			<li class="c-list__item">
+				<h1 class="c-heading u-large"> Отказ в обслуживании (DoS-, DDoS-атаки) </h1>
+			</li>
+			<ul class="c-list ">
+			  <li class="c-list__item">Атаки типа «отказ в обслуживании» (DoS, DDoS) перегружают системы, серверы, сайты трафиком для нарушения или прекращения их обслуживания, чтобы сделать его недоступным для посетителей. В результате перегруженного сервера система не может отвечать на запросы пользователей и прекращает свою работу.</li>
+			  <li class="c-list__item c-list__item--unstyled"> * </li>
+			  <li class="c-list__item c-list__item--unstyled"> Распределенная атака «отказ в обслуживании» DDoS – тот же метод, что и традиционный DoS, за исключением того, что хакер использует несколько взломанных устройств для запуска атаки трафиком на целевой веб-ресурс в более крупном масштабе. Эта атака сложнее и опаснее, так как выполняется одновременно с разных IP-адресов по всему миру, что затрудняет определение её источника для сетевых администраторов. </strong></li>
+			  <li class="c-list__item c-list__item--unstyled"> * </li>
+			  <li class="c-list__item c-list__item--unstyled"> Существуют разные типы DoS- и DDoS-атак, наиболее распространенные из них – TCP SYN flood, smurf, ping-of-death, ботнеты. Злоумышленники часто используют Dos-, DDos-атаки вместе с другими атаками, чтобы отвлечь автоматизированные системы защиты от реагирования на проблему. </li>
+			  <li class="c-list__item c-list__item--unstyled"> * </li>
+			  <li class="c-list__item c-list__item--unstyled"> Атаки DoS, DDoS используются спонсируемыми государством хакерами, цель которых – нарушить работу иностранных правительств и организаций. Согласно отчету Cisco, веб-сайты Олимпийских игр 2016 года в Рио пострадали от 223 крупномасштабных DDoS-атак. Токио для проведения Олимпийских игр создало совет по кибербезопасности. Атака «отказ от обслуживания» также может принести финансовую выгоду для бизнес-конкурентов, заинтересованных в устранении конкурента для охвата большей части рынка. Исследование рисков информационной безопасности, проведенное «Лабораторией Касперского», показало, что одна DDoS-атака («распределенный отказ в обслуживании») обходится малому бизнесу в 123 тыс. $, а крупным предприятиям в среднем 2,3 млн. $. </li>
+			  <li class="c-list__item c-list__item--unstyled"> * </li>
+			  <li class="c-list__item c-list__item--unstyled"> Для предотвращения DoS- и DDoS-атак необходимо уменьшить трафик с помощью сети доставки контента (CDN), балансировщика нагрузки, масштабируемых ресурсов. Также следует использовать брандмауэр на случай, если DDoS-атака скрывает другой метод кибератаки, такой как SQL-инъекция или XSS. </li>
+			</ul>
+			
+			<li class="c-list__item">
+				<h1 class="c-heading u-large"> Межсайтовый скриптинг (XSS) </h1>
+			</li>
+			<ul class="c-list ">
+				<li class="c-list__item c-list__item--unstyled"> Межсайтовый скриптинг (XSS), атака с использованием межсайтовых сценариев – атака, при которой злоумышленник загружает в базу данных веб-сайта вредоносный клиентский код (скрипт JavaScripts, реже HTML, VBScript, ActiveX, Flash). Атаки XSS разделяют на три категории: сохраненные (постоянные), отраженные (непостоянные), основанные на DOM. </li>
+				<li class="c-list__item c-list__item--unstyled"> * </li>
+				<li class="c-list__item c-list__item--unstyled"> Межсайтовый скриптинг происходит следующим образом. Когда пользователь входит на страницу веб-сайта, его браузер автоматически запускает скрипт хакера как часть кода HTML, который выполняет вредоносный сценарий. Вредоносный код может передать файлы cookie из браузера пользователя на сервер злоумышленника, который использует их для перехвата сеанса и дальнейшего извлечения учетных данных клиента, управления его устройством. </li>
+				<li class="c-list__item c-list__item--unstyled"> * </li>
+				<li class="c-list__item c-list__item--unstyled"> Атака является успешной для уязвимых веб-сайтов, использующих недостаточный уровень кодирования и проверки на наличие вредоносного содержимого веб-запроса. Браузер пользователя не может обнаружить, что вредоносный источник (чаще всего веб-запрос) ненадежный, и предоставляет ему доступ к файлам cookie, токенам сеанса или другой конфиденциальной информации, связанной с сайтом, или позволяет вредоносному сценарию переписывать содержимое HTML. </li>
+				<li class="c-list__item c-list__item--unstyled"> * </li>
+				<li class="c-list__item c-list__item--unstyled"> Недавнее исследование Precise Security показало, что XSS-атака является наиболее распространенной кибератакой, составляющей примерно 40% всех атак. Основная защита от XSS-атак – правильное кодирование, включая кодирование HTML, атрибутов, кодирование JavaScript, CSS и т. д. Разработчики устанавливают брандмауэры, действующие как фильтр, который выявляет и блокирует любые вредоносные запросы к веб-сайту. Большинство современных веб-хостинговых платформ используют эти функции автоматически. </li>
+				<li class="c-list__item c-list__item--unstyled"> * </li>
+			</ul>
+			
+		</ul>
+	</div>
+	
+	<blaze-accordion class="u-xlarge">
+	  <blaze-accordion-pane open header="Сайты">
+		<a href="https://masterok.livejournal.com/2056729.html" class="c-link c-link--brand">Самый первый сайт в мире</a><br />
+		<a href="https://monitorul.fisc.md/promo_articles/aktualnye_problemy_bezopasnosti_web-resursov.html/" class="c-link c-link--brand">Актуальные проблемы безопасности web-ресурсов</a><br />
+		<a href="https://www.alkosto.ru/blog/vidyi-atak-na-sajt/" class="c-link c-link--brand">Хакерские атаки на сайт</a><br />
+	  </blaze-accordion-pane>
+	  <blaze-accordion-pane open header="Литература">
+		<a href="https://www.amazon.com/Penetration-Testing-Hands-Introduction-Hacking/dp/1593275641" class="c-link c-link--brand">Penetration Testing: A Hands-On Introduction to Hacking</a><br />
+		<a href="https://www.amazon.com/CEH-Official-Certified-Ethical-Hacker/dp/0782144373" class="c-link c-link--brand">CEH: Official Certified Ethical Hacker Review Guide: Exam 312-50</a><br />
+		<a href="https://www.amazon.com/Rtfm-Red-Team-Field-Manual/dp/1494295504" class="c-link c-link--brand">Rtfm: Red Team Field Manual</a><br />
+	  </blaze-accordion-pane>
+	  <blaze-accordion-pane open header="Видео">
+		<a href="https://www.youtube.com/watch?v=oogljMO_5wo&list=PL2jwxGybEFiuQVQtrLPaH7GNB8ak29634" class="c-link c-link--brand">Защита информации</a><br />
+		<a href="https://www.youtube.com/watch?v=rSp2cpAI4Tc&list=PLdJo1XilUTZPOJ1kSnoKheT7YSygP9FIO" class="c-link c-link--brand"> Безопасность веб-приложений</a><br />
+		<a href="https://www.youtube.com/watch?v=cHp-IiSuKJ4&list=PLQfolpjf5pQJpx-LP_7v8aDnJvZ_X-8yc" class="c-link c-link--brand">Основы ИБ</a><br />
+	  </blaze-accordion-pane>
+	  
+	</blaze-accordion>
 	
 </div>
 
