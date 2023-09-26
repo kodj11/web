@@ -1,9 +1,0 @@
-<nav class="c-pagination">
-  <button class="c-pagination__control">‹</button>
-  <div class="c-pagination__pages">
-    <button class="c-pagination__control">1</button>
-    <button class="c-pagination__control" aria-current="page">2</button>
-    <button class="c-pagination__control">3</button>
-  </div>
-  <button class="c-pagination__control">›</button>
-</nav>

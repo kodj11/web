@@ -2,14 +2,31 @@
 
 font-family: PT Astra Sans;
   
-width: 85%; margin: 10px; margin-top:200px;
+width: 85%; margin: 1px; margin-top:230px;
 
-height: 70%;
+height: 100%;
 
 top: 100hv;
 
 position: relative;
 
 float: right;
+
+}
+
+
+.layout #sidebar {
+
+font-family: PT Astra Sans;
+  
+width: 5%; margin: 1px; margin-top:230px;
+
+height: 10%;
+
+top: 100hv;
+
+position: relative;
+
+float: left;
 
 }
