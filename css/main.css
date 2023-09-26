@@ -2,7 +2,7 @@
 
 font-family: PT Astra Sans;
   
-width: 85%; margin: 1px; margin-top:230px;
+width: 100%; margin: 0px; margin-top:400px;
 
 height: 100%;
 
@@ -11,6 +11,9 @@ top: 100hv;
 position: relative;
 
 float: right;
+
+font-family: 'Raleway', Arial, sans-serif;
+  font-weight: 500;
 
 }
 
