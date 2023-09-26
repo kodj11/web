@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+
+<head>
+<link rel="stylesheet" href="https://unpkg.com/@blaze/css@12.2.0/dist/blaze/blaze.css">
+<script type="module" src="https://unpkg.com/@blaze/atoms@13.1.0/dist/blaze-atoms/blaze-atoms.esm.js"></script>
+<script nomodule="" src="https://unpkg.com/@blaze/atoms@13.1.0/dist/blaze-atoms/blaze-atoms.js"></script>
+<meta charset="utf-8" />
+<title>Безопасность Web-ресурсов</title>
+
+<script>
+   function pageNext() {
+    var str = document.getElementById("pages").page + 1;
+    if (str == 1) window.location.href = "https://programmera.ru";
+	else window.location.href = "https://ya.ru"
+   }
+ </script>
+
+</head>
+
+
+<body>
+
+<ul class="snip1143">
+<link rel="stylesheet" href="menu.css">
+  <li class="current"><a href="#" data-hover="Краткая история">Краткая история</a></li>
+  <li><a href="#" data-hover="About Us">About Us</a></li>
+  <li><a href="#" data-hover="Blog">Blog</a></li>
+  <li><a href="#" data-hover="Services">Services</a></li>
+  <li><a href="#" data-hover="Products">Products</a></li>
+  <li><a href="#" data-hover="Contact">Contact</a></li>
+</ul>
+
+<div class="layout">
+<link rel="stylesheet" href="main.css">
+	<div class="sidebar"></div>
+	
+	<blaze-timeline loading>
+	  
+	  <blaze-timeline-item type="brand">
+		<div class="c-timeline-item__body">
+				<div class="c-card">
+				  <img alt="placeholder" src="./fsite.png" width="98%" height="99%">
+				  <header class="c-card__header c-timeline-item--left">
+					<h2 class="c-heading u-centered u-large">
+					  Первый в мире сайт info.cern.ch
+					  <div class="c-heading__sub u-large">Появился в 1990 году.</div>
+					</h2>
+				  </header>
+				  <div class="c-card__body">
+					<p class="c-paragraph  u-large">Его создатель, Тим Бернерс-Ли, опубликовал на нём описание новой технологии World Wide Web, основанной на протоколе передачи данных HTTP, системе адресации URI и языке гипертекстовой разметки HTML.
+					Также на сайте были описаны принципы установки и работы серверов и браузеров. Сайт стал и первым в мире интернет-каталогом, так как позже Тим Бернерс-Ли разместил на нём список ссылок на другие сайты.</p>
+				  </div>
+				  <footer class="c-card__footer c-card__footer--block">
+					<div class="c-input-group">
+					  <button onclick="window.location.href = 'http://info.cern.ch/hypertext/WWW/TheProject.html';" class="c-button c-button--block c-button--active c-button--info u-large">Ссылка на сайт</button>
+					</div>
+				  </footer>
+				</div>
+			</div>
+	  </blaze-timeline-item>
+	
+	  <blaze-timeline-item type="warning">
+	  <div class="c-card">
+			  <img alt="placeholder" src="./b.jfif" width="98%" height="99%">
+			  <header class="c-card__header c-timeline-item--left">
+				<h2 class="c-heading u-centered">
+				  Первый браузер
+				  <div class="c-heading__sub u-large">Снимок экрана, сделанный в 1993-м, показывающий браузер WorldWideWeb Тим Бернерса-Ли</div>
+				</h2>
+			  </header>
+			  <div class="c-card__body">
+				<p class="c-paragraph u-large">Создателем первого браузера был разработчик гипертекстовой разметки, «отец» технологии World Wide Web Тим Бернерс-Ли (Tim Berners-Lee). Браузер получил название WorldWideWeb. 
+				Позднее, чтобы не путать «всемирную паутину» с названием программы, Бернерс-Ли переименовал браузер в Nexus.</p>
+				<p class="c-paragraph u-large">Согласно легенде, Бернерс-Ли писал WorldWideWeb в течение 2-х месяцев и закончил работу в первый день Рождества 1990 года (25 декабря). 
+				Тогда он работал младшим научным сотрудником в Европейской лаборатории физики элементарных частиц в Женеве (CERN).
+				В это время CERN был одним из крупнейших узлов Сети, и у Бернерса-Ли были все возможности интегрировать интернет с технологией гипертекстовой разметки, работать над которой он начал еще в начале 80-х.</p>
+				<p class="c-paragraph u-large">Тим Бернерс-Ли использовал для создания своего браузера компьютер NeXT под управлением операционной системы NeXTStep. 
+				«Я написал программу на компьютере NeXT. Преимуществом было наличие хороших инструментов, — пишет Бернерс-Ли в своем блоге. — Фактически, я за пару месяцев сделал то, что заняло бы более года на других платформах, потому что на NeXT многое уже было сделано. 
+				Здесь был билдер (сборщик) приложений, чтобы все меню можно было сделать быстро, все софтверные элементы для работы в режиме WYSIWYG (what you see is what you get, с возможностью видеть результат в процессе проектирования). Мне осталось только добавить гипертекст».</p>
+				<p class="c-paragraph u-large">WorldWideWeb позволял просматривать веб-страницы, а также редактировать и обновлять их на сайтах. Это был текстовый браузер, способный отображать исключительно буквы и цифры. На изображении — скриншот более поздней версии браузера (1993 года). 
+				В отличие от него, первый WorldWideWeb был черно-белым, а иконки CERN и другие открывались в отдельных окнах.</p>
+				<p class="c-paragraph u-large">Первый браузер поддерживал протоколы FTP и TCP, систему DNS и позволял переходить на другие интернет-страницы по гиперссылкам. WorldWideWeb написан на Objective-C. 
+				И сам продукт, и его код находились в свободном доступе.</p>
+			  </div>
+			  
+			</div>
+	  </blaze-timeline-item>
+	  <blaze-timeline-item type="success">
+	  <div class="c-timeline-item__body">
+			<div class="c-card">
+				<img alt="placeholder" src="./ddos.jpg" width="98%" height="99%">
+				<header class="c-card__header c-timeline-item--left">
+					<h2 class="c-heading u-centered u-large"> Первая DDoS-атака
+						<div class="c-heading__sub u-large">Первая DDoS-атака произошла 20 лет назад.</div>
+					</h2>
+				</header>
+				<div class="c-card__body">
+					<p class="c-paragraph u-large">22 июля 1999 года – важная дата в истории вычислений.</p>
+					<p class="c-paragraph u-large">В этот день компьютер Миннесотского университета внезапно подвергся атаке со стороны сети из 114 компьютеров, зараженных вредоносным скриптом Trin00.</p>
+					<p class="c-paragraph u-large">Спустя 20 лет исследователи из Виргинского университета Эрик Остервил и Джордж Мэйсон изучили природу DDoS-атак и их эволюцию и попытались понять, 
+					можно ли решить фундаментальные проблемы архитектуры сети, чтобы избежать их. </p>
+				</div>
+			</div>
+		</div>
+	  </blaze-timeline-item>
+	  
+	  <blaze-timeline-item type="brand">
+		<div class="c-timeline-item__body">
+			<div class="c-card">
+				<img alt="placeholder" src="./sec.png" width="98%" height="99%">
+				<header class="c-card__header c-timeline-item--left">
+					<h2 class="c-heading u-centered u-large"> Противодействие DDoS
+						<div class="c-heading__sub u-large">Лишь в 1996 году Координационный центр CERT (computer emergency response team) университета Карнеги-Меллона опубликовал рекомендации по противодействию SYN flood, таким образом официально признав наличие проблемы.</div>
+					</h2>
+				</header>
+				<div class="c-card__body">
+					<p class="c-paragraph u-large">Поводом стала первое масштабное нападение на крупнейшего интернет-провайдера Нью-Йорка — Panix Networks. 
+					Это была коммерческая атака, организованная спамерами. Они мстили Panix за то, что компания не позволила им рассылать мусорные рекламные сообщения пользователям.</p>
+					<p class="c-paragraph u-large">В том же 1996 году впервые был опубликован набор публичных инструментов с исходным кодом для осуществления DDoS.
+					Спустя два года этот инструментарий был опробован на Мичиганском университете — состоялась вторая крупная DDoS-атака.</p>
+					<p class="c-paragraph u-large">В 2000 году 15-летний подросток, скрывавшийся под ником MafiaBoy, один за другим опрокинул самые посещаемые сайты мира того времени: eBay, CNN, Dell, Yahoo, Amazon и т.д. 
+					Интернет-сообщество было в панике. Казалось, наступает интернет-апокалипсис.</p>
+				</div>
+			</div>
+		</div>
+	  </blaze-timeline-item>
+	  <blaze-timeline-item loading>Evolution</blaze-timeline-item>
+	</blaze-timeline>
+</div>
+
+<blaze-back-to-top position="left">
+  <button class="c-button u-large c-button--info">Go back to top</button>
+</blaze-back-to-top>
+
+<blaze-pagination pages="6" page="1" id='pages' onclick="pageNext()"></blaze-pagination>
+
+
+<div class="wrapper">
+<link rel="stylesheet" href="footer.css">
+	<div class="footer">
+	  <div id="knopka"></div>
+		<div id="block">
+			<div id="text">
+				<div class="footer1">
+					   <h1>xxx</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<blaze-alerts position="bottomright">
+	<blaze-alert open dismissible type="info">Работу выполнил: Фаюстов Никита 325б.</blaze-alert>
+	<blaze-alert open dismissible type="success">Сайт прогружен!</blaze-alert>
+</blaze-alerts>
+
+
+</body>
+</html>
