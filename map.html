@@ -15,11 +15,11 @@
 	console.log(str);
     str.then((res) => {
 		console.log(res);
-		if (res == 1) {
-			window.location.href = "index.html";
+		if (res == 5) {
+			window.location.href = "sources.html";
 		}
-		else if (res == 3) {
-			window.location.href = "attack.html";
+		else if (res == 6) {
+			window.location.href = "map.html";
 		}
 	});
    }
@@ -32,11 +32,11 @@
 <ul class="snip1143">
 <link rel="stylesheet" href="css/menu.css">
   <li><a href="index.html" data-hover="Краткая история">Краткая история</a></li>
-  <li class="current"><a href="actual.html" data-hover="Актуальные проблемы безопасности">Актуальные проблемы безопасности</a></li>
+  <li><a href="actual.html" data-hover="Актуальные проблемы безопасности">Актуальные проблемы безопасности</a></li>
   <li><a href="attack.html" data-hover="Атака">Атака</a></li>
   <li><a href="course.html" data-hover="Курсы">Курсы</a></li>
-  <li><a href="sources.html" data-hover="Источники">Источники</a></li>
-  <li><a href="map.html" data-hover="Карта сайта">Карта сайта</a></li>
+  <li><a href="map.html" data-hover="Источники">Источники</a></li>
+  <li class="current"><a href="#" data-hover="Карта сайта">Карта сайта</a></li>
 </ul>
 
 <div class="layout">
@@ -50,7 +50,7 @@
   <button class="c-button u-large c-button--info">Go back to top</button>
 </blaze-back-to-top>
 
-<blaze-pagination pages="6" page="2" id='6pages' onclick="pageNext()"></blaze-pagination>
+<blaze-pagination pages="6" page="6" id='6pages' onclick="pageNext()"></blaze-pagination>
 
 
 <div class="wrapper">
