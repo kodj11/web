@@ -10,6 +10,13 @@
 <script nomodule="" src="https://unpkg.com/@blaze/atoms@13.1.0/dist/blaze-atoms/blaze-atoms.js"></script>
 <title>Безопасность Web-ресурсов</title>
 
+<style>
+    .custom-image {
+        width: auto; /* Размер изображения составит 50% от ширины родительского контейнера */
+        height: auto; /* Автоматически рассчитывать высоту для сохранения пропорций */
+    }
+</style>
+	
 <!-- Yandex.RTB -->
 <script>window.yaContextCb=window.yaContextCb||[]</script>
 <script src="https://yandex.ru/ads/system/context.js" async></script>
@@ -65,7 +72,7 @@ window.yaContextCb.push(()=>{
 	  <blaze-timeline-item type="brand">
 		<div class="c-timeline-item__body">
 				<div class="c-card">
-				  <img alt="placeholder" src="./fsite.png">
+				  <img alt="placeholder" src="./fsite.png" class="custom-image">
 				  <header class="c-card__header c-timeline-item--left">
 					<h2 class="c-heading u-centered u-large">
 					  Первый в мире сайт info.cern.ch
@@ -87,7 +94,7 @@ window.yaContextCb.push(()=>{
 	
 	  <blaze-timeline-item type="warning">
 	  <div class="c-card">
-			  <img alt="placeholder" src="./b.jfif">
+			  <img alt="placeholder" src="./b.jfif" class="custom-image">
 			  <header class="c-card__header c-timeline-item--left">
 				<h2 class="c-heading u-centered">
 				  Первый браузер
@@ -114,7 +121,7 @@ window.yaContextCb.push(()=>{
 	  <blaze-timeline-item type="success">
 	  <div class="c-timeline-item__body">
 			<div class="c-card">
-				<img alt="placeholder" src="./ddos.jpg" width="98%" height="99%">
+				<img alt="placeholder" src="./ddos.jpg" class="custom-image">
 				<header class="c-card__header c-timeline-item--left">
 					<h2 class="c-heading u-centered u-large"> Первая DDoS-атака
 						<div class="c-heading__sub u-large">Первая DDoS-атака произошла 20 лет назад.</div>
@@ -133,7 +140,7 @@ window.yaContextCb.push(()=>{
 	  <blaze-timeline-item type="brand">
 		<div class="c-timeline-item__body">
 			<div class="c-card">
-				<img alt="placeholder" src="./sec.png" width="98%" height="99%">
+				<img alt="placeholder" src="./sec.png" class="custom-image">
 				<header class="c-card__header c-timeline-item--left">
 					<h2 class="c-heading u-centered u-large"> Противодействие DDoS
 						<div class="c-heading__sub u-large">Лишь в 1996 году Координационный центр CERT (computer emergency response team) университета Карнеги-Меллона опубликовал рекомендации по противодействию SYN flood, таким образом официально признав наличие проблемы.</div>
