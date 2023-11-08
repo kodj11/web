@@ -16,7 +16,7 @@
 
 /* Стили для меню */
 .snip1143 li {
-  display: inline-block;
+  display: block;
   list-style: outside none none;
   margin: 0 1.5em;
   overflow: hidden;
