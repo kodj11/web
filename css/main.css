@@ -14,7 +14,7 @@ font-family: 'Raleway', Arial, sans-serif;
 
 }
 
-.layout #main-content	 {
+.main-content	 {
 
 font-family: PT Astra Sans;
   
@@ -26,7 +26,7 @@ float: right;
 
 }
 
-.layout #sidebar {
+.sidebar {
 
 font-family: PT Astra Sans;
   
