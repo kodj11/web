@@ -7,18 +7,11 @@
 <script type="module" src="https://unpkg.com/@blaze/atoms@13.1.0/dist/blaze-atoms/blaze-atoms.esm.js"></script>
 <script nomodule="" src="https://unpkg.com/@blaze/atoms@13.1.0/dist/blaze-atoms/blaze-atoms.js"></script>
 <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
-
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/menu.css">
 <title>Безопасность Web-ресурсов</title>
 
-<ul class="snip1143">
-<link rel="stylesheet" href="css/menu.css">
-  <li><a href="index.html" data-hover="Краткая история">Краткая история</a></li>
-  <li><a href="actual.html" data-hover="Актуальные проблемы безопасности">Актуальные проблемы безопасности</a></li>
-  <li><a href="attack.html" data-hover="Атака">Атака</a></li>
-  <li class="current"><a href="course.html" data-hover="Курсы">Курсы</a></li>
-  <li><a href="sources.html" data-hover="Источники">Источники</a></li>
-  <li><a href="map.html" data-hover="Этот сайт без фреймворка">Этот сайт без фреймворка</a></li>
-</ul>
+
 
 <script>
    function pageNext() {
@@ -40,10 +33,20 @@
 
 <body>
 
+<div class="snip1143 li">
+	<ul class="snip1143">
+	  <li><a href="index.html" data-hover="Краткая история">Краткая история</a></li>
+	  <li><a href="actual.html" data-hover="Актуальные проблемы безопасности">Актуальные проблемы безопасности</a></li>
+	  <li><a href="attack.html" data-hover="Атака">Атака</a></li>
+	  <li class="current"><a href="course.html" data-hover="Курсы">Курсы</a></li>
+	  <li><a href="sources.html" data-hover="Источники">Источники</a></li>
+	  <li><a href="map.html" data-hover="Этот сайт без фреймворка">Этот сайт без фреймворка</a></li>
+	</ul>
+</div>
+
+<blaze-pagination pages="6" page="4" id='6pages' onclick="pageNext()"></blaze-pagination>
 
 <div class="layout">
-<link rel="stylesheet" href="css/main.css">
-	<div class="sidebar"></div>
 	
 	<iframe width="100%" height="700" src="https://www.youtube.com/embed/_HcACxBsBLg?si=JvOOJLF-VBciwGq1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 	
@@ -55,7 +58,7 @@
   <button class="c-button u-large c-button--info">Go back to top</button>
 </blaze-back-to-top>
 
-<blaze-pagination pages="6" page="4" id='6pages' onclick="pageNext()"></blaze-pagination>
+
 
 
 <div class="wrapper">

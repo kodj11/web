@@ -74,14 +74,12 @@ body {
 
 /* Медиа-запрос для адаптивности на мобильных устройствах */
 @media screen and (max-width: 480px) {
-  .snip1143 li {
-    display: block;
-    margin: 1.5em 0;
+  .snip1143 {
+    font-size: 14px;
   }
-
   /* Дополнительные стили для демонстрации */
   body {
-    height: 80vh;
+    height: 10 vh;
     display: block;
     align-items: center;
     justify-content: center;
@@ -96,7 +94,7 @@ body {
   }
   /* Дополнительные стили для демонстрации */
   body {
-    height: 50vh;
+    height: 25 vh;
     display: block;
     align-items: center;
     justify-content: center;

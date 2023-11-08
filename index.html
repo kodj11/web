@@ -36,30 +36,7 @@
 </head>
 <body>
 
-<div class="wrapper">
-<link rel="stylesheet" href="css/footer.css">
-	
-	<div class="footer">
-	  <div id="knopka"></div>
-		
-		<div id="block">
-		<button type="button" class="c-button c-button--block u-large" onclick="window.location.href = 'https://edu.kirpichev.info/';">Самый лучший сайт</button>
-		<button type="button" class="c-button c-button--block u-large" onclick="window.location.href = 'https://regentru.github.io/lab1web/index.html';">Хороший сайт</button>
-		<button type="button" class="c-button c-button--block u-large">coming soon...</button>
-			<div id="text">
-			
-				<div class="footer1">
-					
-					   <h1>
-					    .
-					   </h1>
-					   
-				</div>
-			</div>
-		</div>
-		
-	</div>
-</div>
+
 	
 <div class="snip1143 li">
 	<ul class="snip1143">
@@ -71,9 +48,11 @@
 	  <li><a href="map.html" data-hover="Этот сайт без фреймворка">Этот сайт без фреймворка</a></li>
 	</ul>
 </div>	
+
+<blaze-pagination pages="6" page="1" id='6pages' onclick="pageNext()"></blaze-pagination>
+
 <div class="layout">
 	
-
 	<blaze-timeline loading>
 	  
 	  <blaze-timeline-item type="brand">
@@ -172,10 +151,31 @@
   <button class="c-button u-large c-button--info">Go back to top</button>
 </blaze-back-to-top>
 
-<blaze-pagination pages="6" page="1" id='6pages' onclick="pageNext()"></blaze-pagination>
 
-
-
+<div class="wrapper">
+<link rel="stylesheet" href="css/footer.css">
+	
+	<div class="footer">
+	  <div id="knopka"></div>
+		
+		<div id="block">
+		<button type="button" class="c-button c-button--block u-large" onclick="window.location.href = 'https://edu.kirpichev.info/';">Самый лучший сайт</button>
+		<button type="button" class="c-button c-button--block u-large" onclick="window.location.href = 'https://regentru.github.io/lab1web/index.html';">Хороший сайт</button>
+		<button type="button" class="c-button c-button--block u-large">coming soon...</button>
+			<div id="text">
+			
+				<div class="footer1">
+					
+					   <h1>
+					    .
+					   </h1>
+					   
+				</div>
+			</div>
+		</div>
+		
+	</div>
+</div>
 
 
 <blaze-alerts position="bottomright">
