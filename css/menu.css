@@ -65,7 +65,7 @@
 
 /* Дополнительные стили для демонстрации */
 body {
-  height: 15vh;
+  height: 25vh;
   display: block;
   align-items: center;
   justify-content: center;
@@ -81,7 +81,7 @@ body {
 
   /* Дополнительные стили для демонстрации */
   body {
-    height: 40vh;
+    height: 80vh;
     display: block;
     align-items: center;
     justify-content: center;
@@ -96,7 +96,7 @@ body {
   }
   /* Дополнительные стили для демонстрации */
   body {
-    height: 30vh;
+    height: 50vh;
     display: block;
     align-items: center;
     justify-content: center;
