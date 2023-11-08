@@ -78,11 +78,28 @@ body {
     display: block;
     margin: 1.5em 0;
   }
+
+  /* Дополнительные стили для демонстрации */
+  body {
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #212121;
+  }
 }
 
 /* Медиа-запрос для адаптивности на планшетных устройствах */
 @media screen and (max-width: 768px) {
   .snip1143 {
     font-size: 14px;
+  }
+  /* Дополнительные стили для демонстрации */
+  body {
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #212121;
   }
 }
